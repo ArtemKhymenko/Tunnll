@@ -35,3 +35,23 @@
 #headline br {
   clear: both;
 }
+
+#section1 ul {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding-right: 1em;
+}
+
+#section1 video {
+  width: 50%;
+  float: right;
+}
+
+#section2 div img {
+  width: 30%;
+  margin: 1%;
+  box-sizing: border-box;
+  border-radius: 50% 50%;
+  box-shadow: black 0px 0px 5px;
+}
