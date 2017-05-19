@@ -177,3 +177,58 @@
 (firefox:2842): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
 (firefox:2842): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1495223032495	geckodriver	INFO	Listening on 127.0.0.1:36127
+1495223033628	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1495223034376	addons.xpi	WARN	Add-on langpack-uk@firefox.mozilla.org is not compatible with application version.
+1495223034379	addons.xpi	WARN	Add-on langpack-uk@firefox.mozilla.org is not compatible with application version.
+1495223034399	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1495223034403	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1495223034426	addons.xpi	WARN	Add-on langpack-ru@firefox.mozilla.org is not compatible with application version.
+1495223034427	addons.xpi	WARN	Add-on langpack-ru@firefox.mozilla.org is not compatible with application version.
+1495223034444	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1495223034445	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1495223035267	addons.xpi	WARN	Add-on langpack-uk@firefox.mozilla.org is not compatible with application version.
+1495223035268	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1495223035270	addons.xpi	WARN	Add-on langpack-ru@firefox.mozilla.org is not compatible with application version.
+1495223035272	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1495223035281	addons.xpi	WARN	Add-on langpack-uk@firefox.mozilla.org is not compatible with application version.
+1495223035282	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1495223035284	addons.xpi	WARN	Add-on langpack-ru@firefox.mozilla.org is not compatible with application version.
+1495223035285	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1495223038635	Marionette	INFO	Listening on port 32881
+
+(/usr/lib/firefox/firefox:4843): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4843): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4843): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:4843): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:4777): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
