@@ -4,7 +4,7 @@ import unittest
 class NewVisitorTest(unittest.TestCase):
 
     def setUp(self):
-        self.browser = webdriver.Firefox()
+        self.browser = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
         self.browser.implicitly_wait(3)
 
     def tearDown(self):
@@ -16,7 +16,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get('http://localhost:8000')
 
         # She notices the page title and header mention to-do lists
-        self.assertIn('T0-Do', self.browser.title)
+        self.assertIn('To-Do', self.browser.title)
         self.fail('Finish the test!')
 
 
@@ -35,4 +35,4 @@ class NewVisitorTest(unittest.TestCase):
         # Satisfied, she goes back to sleep
 
 if __name__ == '__main__':
-    unittest.main(warninngs='ignore')
+    unittest.main(warnings='ignore')
