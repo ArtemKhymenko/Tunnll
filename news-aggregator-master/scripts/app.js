@@ -117,12 +117,8 @@ APP.Main = (function() {
         by: '', text: 'Loading comment...'
       });
 
-      storyDetails = document.createElement('section');
       storyDetails.setAttribute('id', 'sd-' + details.id);
-      storyDetails.classList.add('story-details');
       storyDetails.innerHTML = storyDetailsHtml;
-
-      document.body.appendChild(storyDetails);
 
       commentsElement = storyDetails.querySelector('.js-comments');
       storyHeader = storyDetails.querySelector('.js-header');
