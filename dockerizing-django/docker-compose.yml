@@ -10,9 +10,7 @@ web:
     - /usr/src/app
     - /usr/src/app/static
   env_file: .env
-  environment:
-    DEBUG: 'true'
-  command: /usr/local/bin/gunicorn docker_django.wsgi:application -w 2 -b :8000
+  command:  /usr/local/bin/python /usr/src/app/manage.py runserver
 
 nginx:
   restart: always
@@ -30,7 +28,7 @@ postgres:
   restart: always
   image: postgres:latest
   ports:
-    - "5432:5432"
+    - "5433:5433"
   volumes:
     - pgdata:/var/lib/postgresql/data/
 
